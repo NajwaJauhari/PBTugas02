@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E1BEE7"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:background="#FAB7CE"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:fontFamily="@font/flamanteroundbold"
+            android:text="Kawaii Fashion"
+            android:textColor="#230051"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/twcenlight"
+            android:text="Stay Kawaii this your fashion💗"
+            android:textAlignment="center"
+            android:textColor="#230051"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivFashion1"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kf1"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮This gorgeous dress is one of our bestsellers and is hot right now in Spring 2022.\n💮Feel pretty and feminine in daisy print\n💮Mix and match with heels or flats, the choice is yours"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp. 633.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnKf1"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Kawaii Daisy Puff Sleeve Summer Dress"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivFashion2"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kf2"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮Suitable for many occasion, Daily wear, party, holidays, cold weather. cool for summer, and suitable for any season.\n💮The best choice as a gift for your daughter, friend, girl friend, lover, parents, etc.\n💮Warm winter decorations\n💮Harajuku Style\n💮Please do not wash! Dry clean only."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 286.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnKf2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Little Fox Ears Beret"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivFashion3"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kf3"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮The most gorgeous and beautifully designed Kimono\n💮Pastel colours with a girl and moon design\n💮Perfect for summer days and relaxing nights"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 613.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnKf3"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Pastel Moon Kimono"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivFashion4"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kf4"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮Top-Quality Plush Material:  Made from the finest plush fabric, ensuring a soft and gentle touch against the skin.\n💮Warmth and Comfort: Its thick and cozy design provides ample warmth, ideal for cold nights or air-conditioned spaces.\n💮Dual-Purpose Design: Can be worn as a robe or spread out as a blanket, making it perfect for lounging, movie nights, or reading sessions.\n💮Hassle-Free Maintenance: Machine-washable, it retains its plush softness and vibrant color even after multiple washes"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 801.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnKf4"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Kawaii Fox Plush Hoodie Blanket Robe"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivFashion5"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kf5"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮Decoration: Bow\n💮Pattern Type: Patchwork\n💮Clothing Length: Short"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 654.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnKf5"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Spring Knit Cute Bow Cardigan Sweater"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

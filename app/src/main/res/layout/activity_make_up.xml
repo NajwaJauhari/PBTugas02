@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFEBEE"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:background="#FAB7CE"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:fontFamily="@font/flamanteroundbold"
+            android:text="Self Care and Makeup"
+            android:textColor="#230051"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/twcenlight"
+            android:text="Elevate your beauty routine with our curated selection of Kawaii makeup.  🌸💄✨"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFE1BEE7"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMk1"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mk1"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="Introducing the Hivi Flower Jelly Lipstick Eyeshadow Gift Set, the perfect makeup set for all your beauty needs. This set includes 4 Jelly Gloss lipsticks, an eyebrow pencil, a concealer, blush, and eyeshadow, all housed in a beautiful gift box."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 797.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnMk1"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Hivi Flower Jelly Lipstick Eyeshadow Gift Set"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFE1BEE7"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMk2"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mk2"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮The perfect blend of colour and gloss\n💮Great for lips that do'nt usually suit lipstick\n💮A subtle, slightly shimmery, glossy and tinted effect"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 245.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnMk2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Sweet Spring Heart Jelly Lip Tint Gloss"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFE1BEE7"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMk3"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mk3"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="🍞This palette features 9 shades in ultra-matte, duo chrome, and metallic finishes that let you create softly-glamorous looks any time.\n🍞Each shade is fully-pigmented and easy to blend. The palette is luxuriously packaged, with a large mirror.\n🍞Please tear off the protective film of the mirror before using eyeshadow."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 347.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnMk3"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="NOVO Bread Toast Soft Shimmer Eyeshadow"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFE1BEE7"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMk4"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mk4"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮The cutest and most aesthetic kawaii korean style storage bags\n💮use for make up and toiletries or anything you need"
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 1.082.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnMk4"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Kyuto Kitty Make up Storage Box"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFE1BEE7"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMk5"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mk5"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="Are you tired of boring nails? Say no more! Get your hands on our 24PC Cute Rabbit Moon False Stick On Nails and add some kawaii cuteness to your fingertips."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 164.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnMk5"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="24PC Cute Rabbit Moon False Stick On Nails"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

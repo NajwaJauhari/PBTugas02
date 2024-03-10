@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E1BEE7"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:background="#FAB7CE"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:fontFamily="@font/flamanteroundbold"
+            android:text="Soft Toys and Plushies"
+            android:textColor="#230051"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/twcenlight"
+            android:text="Whether you're snuggling up for a movie night or looking for the perfect gift, our plushies offer a cuddly embrace like no other. Shop now and fill your life with kawaii cuddles! 🌸🧸💖"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgP1"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p1"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="Introducing our adorable Red Panda Kawaii Plushie Soft Toy – the cutest companion you'll ever cuddle! Get ready to be enchanted by its irresistible charm and huggable softness."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 286.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnP1"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Red Panda Kawaii Plushie Soft Toy"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgP2"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p2"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮High-quality material: This flower cushion fabric is made of fine plush fabric, and high-quality PP fabric is selected as the filler, skin-friendly, very soft and elastic.\n💮Cute flower shape: Super soft pillow, fresh and cute. The colors are bright and comfortable. Zipper design adopted and the outer cover is removable and washable. Unfold it and it can be used as a floor mat."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 694.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnP2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Pastel Flower Daisy Plush Chair Cushion Pillow"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgP3"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p3"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮Whales are known for their calming and relaxing vibes.\n💮Use this whale as a cuddle buddy or even as a maternity pillow, their perfect for all occasions\n💮Available in three sizes to fit perfectly into your daily life."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 347.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnP3"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Giant Size Whale Soft Toy Plushie"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgP4"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p4"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="💮The hot water bag is so cute and has high quality\n💮Reusable, portable and Leak-proof\n💮Plush cover, soft and comfortable to touch\n💮It can be used to warm your hand, foot, belly and so on."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 225.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnP4"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Kawaii Cute Fluffy Hot Water Bottles"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFCDD2"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgP5"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/p5"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/twcenlight"
+                    android:gravity="left|right|center"
+                    android:padding="25px"
+                    android:text="Adopt your very own Kawaii Plushie and take home a forever friend..."
+                    android:textColor="#230051"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitosemibold"
+                    android:gravity="center"
+                    android:padding="25px"
+                    android:text="Rp 409.000,00"
+                    android:textColor="#230051"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/btnP5"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:backgroundTint="#D1C4E9"
+                    android:clickable="true"
+                    android:fontFamily="@font/flamanteroundbold"
+                    android:gravity="center"
+                    android:text="Bed Cuddle Kitty Cat Plushie"
+                    android:textColor="#230051"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
